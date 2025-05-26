@@ -3,7 +3,6 @@ from house_app.db.schema import HouseSchema
 from house_app.db.database import SessionLocal
 from fastapi import Depends, HTTPException, APIRouter
 from sqlalchemy.orm import Session
-from typing import Optional, List
 from pathlib import Path
 import joblib
 import numpy as np

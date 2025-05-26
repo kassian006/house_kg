@@ -8,7 +8,7 @@ class HouseSchema(BaseModel):
     total_basement: int
     bath: int
     overall_quality: int
-    neighborhood: Optional[int] = None
+    neighborhood: Optional[str] = None
     price: Optional[int] = None
 
     class Config:
